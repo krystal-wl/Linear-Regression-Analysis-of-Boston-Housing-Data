@@ -26,9 +26,10 @@ pip install numpy pandas seaborn matplotlib statsmodels scikit-learn
 
 ### Load Data
 The dataset can be loaded using the load_data function from the ISLP package:
-
+```bash
 from ISLP import load_data
 Boston = load_data('Boston')
+```
 
 ## Simple Linear Regression
 Simple linear regression is used to explore the relationship between the median value of owner-occupied homes (medv) and the weighted distances to five Boston employment centres (dis). The analysis includes plotting, fitting the model, and hypothesis testing.
